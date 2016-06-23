@@ -1,0 +1,7 @@
+---
+:git_directory: net-archive
+:ftp_user: neteng
+:port: 2121
+:listen_address: "::"
+:pidfile: j-archive.pid
+

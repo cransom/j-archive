@@ -1,0 +1,37 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.0)
+    elasticsearch (0.4.7)
+      elasticsearch-api (= 0.4.7)
+      elasticsearch-transport (= 0.4.7)
+    elasticsearch-api (0.4.7)
+      multi_json
+    elasticsearch-transport (0.4.7)
+      faraday
+      multi_json
+    faraday (0.9.0)
+      multipart-post (>= 1.2, < 3)
+    ftpd (0.10.0)
+      memoizer (~> 1.0.1)
+    git (1.2.6)
+    memoizer (1.0.1)
+    method_source (0.8.2)
+    multi_json (1.8.4)
+    multipart-post (2.0.0)
+    pidfile (0.3.0)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    slop (3.4.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  elasticsearch
+  ftpd
+  git
+  pidfile
+  pry
